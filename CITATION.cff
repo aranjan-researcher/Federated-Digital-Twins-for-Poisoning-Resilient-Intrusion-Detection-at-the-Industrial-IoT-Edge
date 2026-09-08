@@ -1,0 +1,49 @@
+# CITATION.cff
+# This file lets GitHub show a "Cite this repository" button and lets tools
+# like Zenodo auto-generate a DOI and citation for this repository.
+#
+# ACTION NEEDED before publishing this repo: replace every field marked
+# TODO below. Author names, affiliations, and the journal volume/pages/DOI
+# are placeholders because the paper is not yet in its final published
+# form (see paper/main.tex) -- do not leave fabricated values here.
+#
+# Validate after editing: https://citation-file-format.github.io/cff-initializer-javascript/
+
+cff-version: 1.2.0
+message: "If you use this code, the results data, or the paper, please cite both entries below."
+title: "Federated Digital Twins for Poisoning-Resilient Intrusion Detection at the Industrial IoT Edge"
+type: software
+version: 1.0.0
+date-released: "2026-09-08"
+repository-code: "TODO: https://github.com/USERNAME/REPO"
+license: MIT
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+    affiliation: "TODO"
+    # orcid: "TODO: https://orcid.org/0000-0000-0000-0000"
+
+keywords:
+  - digital twin
+  - federated learning
+  - intrusion detection
+  - Industrial IoT
+  - Byzantine-robust aggregation
+  - edge intelligence
+  - poisoning attacks
+
+preferred-citation:
+  type: article
+  title: "Federated Digital Twins for Poisoning-Resilient Intrusion Detection at the Industrial IoT Edge"
+  authors:
+    - family-names: "TODO"
+      given-names: "TODO"
+      affiliation: "TODO"
+  journal: "IEEE Access"
+  year: 2026
+  # volume, issue, start/end page, and doi: fill in once the paper is
+  # accepted and assigned these -- they do not exist yet at time of writing.
+  volume: "TODO"
+  start: "TODO"
+  end: "TODO"
+  doi: "TODO"

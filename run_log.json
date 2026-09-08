@@ -1,0 +1,401 @@
+[
+  {
+    "dataset": "ciciot",
+    "section": "initial_load",
+    "status": "OK",
+    "detail": "(1498619, 48)",
+    "timestamp": "2026-09-08 04:20:42"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "single_attacker",
+    "status": "OK",
+    "detail": "245s",
+    "timestamp": "2026-09-08 04:24:47"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "baseline_comparison",
+    "status": "OK",
+    "detail": "291s",
+    "timestamp": "2026-09-08 04:29:38"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "ablation",
+    "status": "OK",
+    "detail": "72s",
+    "timestamp": "2026-09-08 04:30:51"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "adaptive_attacker",
+    "status": "OK",
+    "detail": "32s",
+    "timestamp": "2026-09-08 04:31:22"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "sensitivity",
+    "status": "OK",
+    "detail": "24s",
+    "timestamp": "2026-09-08 04:31:46"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "long_horizon",
+    "status": "OK",
+    "detail": "21s",
+    "timestamp": "2026-09-08 04:32:07"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "generalization",
+    "status": "OK",
+    "detail": "39s",
+    "timestamp": "2026-09-08 04:32:46"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "severity_sweep",
+    "status": "OK",
+    "detail": "722s",
+    "timestamp": "2026-09-08 04:44:48"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "shap",
+    "status": "OK",
+    "detail": "37s",
+    "timestamp": "2026-09-08 04:45:25"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "fairness",
+    "status": "OK",
+    "detail": "13s",
+    "timestamp": "2026-09-08 04:45:39"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "strong_attacks",
+    "status": "OK",
+    "detail": "38s",
+    "timestamp": "2026-09-08 04:46:17"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "peer_aware_attacker",
+    "status": "OK",
+    "detail": "47s",
+    "timestamp": "2026-09-08 04:47:04"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "noniid_dirichlet",
+    "status": "OK",
+    "detail": "61s",
+    "timestamp": "2026-09-08 04:48:05"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "scalability",
+    "status": "OK",
+    "detail": "43s",
+    "timestamp": "2026-09-08 04:48:49"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "convergence_aware_gate",
+    "status": "OK",
+    "detail": "26s",
+    "timestamp": "2026-09-08 04:49:15"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "ablation_strong",
+    "status": "OK",
+    "detail": "110s",
+    "timestamp": "2026-09-08 04:51:05"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "zscore_distribution",
+    "status": "OK",
+    "detail": "3s",
+    "timestamp": "2026-09-08 04:51:08"
+  },
+  {
+    "dataset": "ciciot",
+    "section": "run_dataset",
+    "status": "FATAL",
+    "detail": "Traceback (most recent call last):\n  File \"/tmp/ipykernel_9074/2508812051.py\", line 4, in <cell line: 0>\n    run_dataset(dataset)\n    ~~~~~~~~~~~^^^^^^^^^\n  File \"/tmp/ipykernel_9074/3616447410.py\", line 65, in run_dataset\n    json.dump([s for s in all_summaries if s is not None], f, indent=2, default=str)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/__init__.py\", line 181, in dump\n    for chunk in iterable:\n                 ^^^^^^^^\n  File \"/usr/lib/python3.13/json/encoder.py\", line 433, in _iterencode\n    yield from _iterencode_list(o, _current_indent_level)\n  File \"/usr/lib/python3.13/json/encoder.py\", line 328, in _iterencode_list\n    yield from chunks\n  File \"/usr/lib/python3.13/json/encoder.py\", line 409, in _iterencode_dict\n    yield from chunks\n  File \"/usr/lib/python3.13/json/encoder.py\", line 378, in _iterencode_dict\n    raise TypeError(f'keys must be str, int, float, bool or None, '\n                    f'not {key.__class__.__name__}')\nTypeError: keys must be str, int, float, bool or None, not tuple\n",
+    "timestamp": "2026-09-08 04:51:08"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "initial_load",
+    "status": "OK",
+    "detail": "(1160938, 65)",
+    "timestamp": "2026-09-08 04:56:03"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "single_attacker",
+    "status": "OK",
+    "detail": "188s",
+    "timestamp": "2026-09-08 04:59:11"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "baseline_comparison",
+    "status": "OK",
+    "detail": "252s",
+    "timestamp": "2026-09-08 05:03:22"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "ablation",
+    "status": "OK",
+    "detail": "66s",
+    "timestamp": "2026-09-08 05:04:28"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "adaptive_attacker",
+    "status": "OK",
+    "detail": "31s",
+    "timestamp": "2026-09-08 05:04:59"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "sensitivity",
+    "status": "OK",
+    "detail": "22s",
+    "timestamp": "2026-09-08 05:05:21"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "long_horizon",
+    "status": "OK",
+    "detail": "19s",
+    "timestamp": "2026-09-08 05:05:40"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "generalization",
+    "status": "OK",
+    "detail": "36s",
+    "timestamp": "2026-09-08 05:06:15"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "severity_sweep",
+    "status": "OK",
+    "detail": "706s",
+    "timestamp": "2026-09-08 05:18:01"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "shap",
+    "status": "OK",
+    "detail": "39s",
+    "timestamp": "2026-09-08 05:18:40"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "fairness",
+    "status": "OK",
+    "detail": "13s",
+    "timestamp": "2026-09-08 05:18:54"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "strong_attacks",
+    "status": "OK",
+    "detail": "36s",
+    "timestamp": "2026-09-08 05:19:29"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "peer_aware_attacker",
+    "status": "OK",
+    "detail": "46s",
+    "timestamp": "2026-09-08 05:20:15"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "noniid_dirichlet",
+    "status": "OK",
+    "detail": "56s",
+    "timestamp": "2026-09-08 05:21:11"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "scalability",
+    "status": "OK",
+    "detail": "43s",
+    "timestamp": "2026-09-08 05:21:54"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "convergence_aware_gate",
+    "status": "OK",
+    "detail": "24s",
+    "timestamp": "2026-09-08 05:22:18"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "ablation_strong",
+    "status": "OK",
+    "detail": "101s",
+    "timestamp": "2026-09-08 05:23:59"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "zscore_distribution",
+    "status": "OK",
+    "detail": "3s",
+    "timestamp": "2026-09-08 05:24:02"
+  },
+  {
+    "dataset": "edgeiiot",
+    "section": "run_dataset",
+    "status": "FATAL",
+    "detail": "Traceback (most recent call last):\n  File \"/tmp/ipykernel_9074/2508812051.py\", line 4, in <cell line: 0>\n    run_dataset(dataset)\n    ~~~~~~~~~~~^^^^^^^^^\n  File \"/tmp/ipykernel_9074/3616447410.py\", line 65, in run_dataset\n    json.dump([s for s in all_summaries if s is not None], f, indent=2, default=str)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/__init__.py\", line 181, in dump\n    for chunk in iterable:\n                 ^^^^^^^^\n  File \"/usr/lib/python3.13/json/encoder.py\", line 433, in _iterencode\n    yield from _iterencode_list(o, _current_indent_level)\n  File \"/usr/lib/python3.13/json/encoder.py\", line 328, in _iterencode_list\n    yield from chunks\n  File \"/usr/lib/python3.13/json/encoder.py\", line 409, in _iterencode_dict\n    yield from chunks\n  File \"/usr/lib/python3.13/json/encoder.py\", line 378, in _iterencode_dict\n    raise TypeError(f'keys must be str, int, float, bool or None, '\n                    f'not {key.__class__.__name__}')\nTypeError: keys must be str, int, float, bool or None, not tuple\n",
+    "timestamp": "2026-09-08 05:24:02"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "initial_load",
+    "status": "OK",
+    "detail": "(1496177, 117)",
+    "timestamp": "2026-09-08 05:27:49"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "single_attacker",
+    "status": "OK",
+    "detail": "243s",
+    "timestamp": "2026-09-08 05:31:52"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "baseline_comparison",
+    "status": "OK",
+    "detail": "220s",
+    "timestamp": "2026-09-08 05:35:32"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "ablation",
+    "status": "OK",
+    "detail": "81s",
+    "timestamp": "2026-09-08 05:36:53"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "adaptive_attacker",
+    "status": "OK",
+    "detail": "35s",
+    "timestamp": "2026-09-08 05:37:29"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "sensitivity",
+    "status": "OK",
+    "detail": "26s",
+    "timestamp": "2026-09-08 05:37:55"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "long_horizon",
+    "status": "OK",
+    "detail": "23s",
+    "timestamp": "2026-09-08 05:38:18"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "generalization",
+    "status": "OK",
+    "detail": "44s",
+    "timestamp": "2026-09-08 05:39:02"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "severity_sweep",
+    "status": "OK",
+    "detail": "801s",
+    "timestamp": "2026-09-08 05:52:23"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "shap",
+    "status": "OK",
+    "detail": "36s",
+    "timestamp": "2026-09-08 05:52:59"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "fairness",
+    "status": "OK",
+    "detail": "16s",
+    "timestamp": "2026-09-08 05:53:14"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "strong_attacks",
+    "status": "OK",
+    "detail": "43s",
+    "timestamp": "2026-09-08 05:53:57"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "peer_aware_attacker",
+    "status": "OK",
+    "detail": "53s",
+    "timestamp": "2026-09-08 05:54:50"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "noniid_dirichlet",
+    "status": "OK",
+    "detail": "66s",
+    "timestamp": "2026-09-08 05:55:56"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "scalability",
+    "status": "OK",
+    "detail": "46s",
+    "timestamp": "2026-09-08 05:56:42"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "convergence_aware_gate",
+    "status": "OK",
+    "detail": "29s",
+    "timestamp": "2026-09-08 05:57:11"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "ablation_strong",
+    "status": "OK",
+    "detail": "121s",
+    "timestamp": "2026-09-08 05:59:13"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "zscore_distribution",
+    "status": "OK",
+    "detail": "3s",
+    "timestamp": "2026-09-08 05:59:16"
+  },
+  {
+    "dataset": "nbaiot",
+    "section": "run_dataset",
+    "status": "FATAL",
+    "detail": "Traceback (most recent call last):\n  File \"/tmp/ipykernel_9074/2508812051.py\", line 4, in <cell line: 0>\n    run_dataset(dataset)\n    ~~~~~~~~~~~^^^^^^^^^\n  File \"/tmp/ipykernel_9074/3616447410.py\", line 65, in run_dataset\n    json.dump([s for s in all_summaries if s is not None], f, indent=2, default=str)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/__init__.py\", line 181, in dump\n    for chunk in iterable:\n                 ^^^^^^^^\n  File \"/usr/lib/python3.13/json/encoder.py\", line 433, in _iterencode\n    yield from _iterencode_list(o, _current_indent_level)\n  File \"/usr/lib/python3.13/json/encoder.py\", line 328, in _iterencode_list\n    yield from chunks\n  File \"/usr/lib/python3.13/json/encoder.py\", line 409, in _iterencode_dict\n    yield from chunks\n  File \"/usr/lib/python3.13/json/encoder.py\", line 378, in _iterencode_dict\n    raise TypeError(f'keys must be str, int, float, bool or None, '\n                    f'not {key.__class__.__name__}')\nTypeError: keys must be str, int, float, bool or None, not tuple\n",
+    "timestamp": "2026-09-08 05:59:16"
+  }
+]
